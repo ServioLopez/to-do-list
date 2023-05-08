@@ -1,0 +1,28 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #384946;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+        
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #384946;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
