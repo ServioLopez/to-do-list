@@ -1,0 +1,41 @@
+
+
+.todo-container {
+    margin-bottom: 20px;
+  }
+  
+  #taskInput {
+    width: 70%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #addButton {
+    padding: 5px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #ace7e2;
+    border-radius: 10%;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-item.completed label {
+    text-decoration: line-through;
+    color: #0bcfcf;
+  }
+  
